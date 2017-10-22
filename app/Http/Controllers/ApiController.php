@@ -103,7 +103,9 @@ class ApiController extends Controller
             ];
         }
 
-
+        if ($jsonData['senderId'] == $jsonData['receiverId']) {
+            throw new \Exception('Sender and receiver is the same person');
+        }
 
         return DB::transaction(function() use($jsonData) {
 
