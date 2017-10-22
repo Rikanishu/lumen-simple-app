@@ -1,0 +1,36 @@
+.content {
+    padding: 20px;
+}
+
+.report-data {
+    margin-top: 20px;
+}
+
+.report-data .totals {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.report-data .totals .title {
+    font-weight: bold;
+}
+
+.header-form .form-group {
+    margin-right: 10px;
+}
+
+.header-form .form-group label {
+    margin-right: 10px;
+}
+
+.report-data tr.operation-balance-positive {
+    background: #DFF0D8;
+}
+
+.report-data tr.operation-balance-negative {
+    background: #F2DEDE;
+}
+
+.header-form  {
+    margin-bottom: 10px;
+}
