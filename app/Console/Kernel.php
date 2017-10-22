@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel
         $app->singleton(
             \App\Console\Helper\InternalRequestClient::class,
             function() {
-                return new \App\Console\Helper\InternalRequestClient($app);
+                return new \App\Console\Helper\InternalRequestClient();
             }
         );
     }
